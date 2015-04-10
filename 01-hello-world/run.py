@@ -1,3 +1,3 @@
-import test
-k = test.f()
-print k
+import hello
+
+print hello.hello()
