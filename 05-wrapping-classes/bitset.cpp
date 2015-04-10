@@ -429,10 +429,11 @@ static const char *__pyx_f[] = {
 /*--- Type declarations ---*/
 struct __pyx_obj_6bitset_Bitset;
 
-/* "bitset.pxd":24
- *     cdef void to_string(dynamic_bitset[size_t], string s)
- * 
+/* "bitset.pxd":28
+ * # Although it is a template, we really only want to use it one way,
+ * # instantiated with size_t, so we typedef the particular case we want.
  * ctypedef dynamic_bitset[size_t] bitset_t             # <<<<<<<<<<<<<<
+ * 
  */
 typedef boost::dynamic_bitset<size_t>  __pyx_t_6bitset_bitset_t;
 
